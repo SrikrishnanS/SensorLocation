@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SensorLocationApp</string>
+    <string name="andrew_id">My Andrew ID: </string>
+    <string name="my_andrew_id">srikriss</string>
+    <string name="current_time">Current Time: </string>
+    <string name="available_sensors">Available Sensors: </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading_map">Loading maps. Please wait.</string>
+    <string name="loading_location">Unable to fetch current location. Please try again later.</string>
+    <string name="gps_off">Please turn on your GPS and try again.</string>
+    <string name="internet_off">Error retrieving the address. Check your Internet connection.</string>
+    <string name="action_settings">Settings</string>
+</resources>
