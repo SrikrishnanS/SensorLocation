@@ -56,6 +56,8 @@ public class LocationFragment extends Fragment {
         //add the listeners for location changes
         manager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
         listener = new LocationChangeListener(googleMap, context);
+
+        //poll frequence is 1sec, distance change is 0.
         manager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1000, 0, listener);
         LocationUtils.markCurrentLocation(googleMap, manager, context);
         return rootView;
